@@ -21,7 +21,7 @@ task.operation = [NSBlockOperation blockOperationWithBlock:^{
 }];
     
 // add to stack
-[self.operationStack addTask:task];
+[operationStack addTask:task];
 
 // DONE.
 
